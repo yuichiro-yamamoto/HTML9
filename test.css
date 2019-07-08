@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.main-visual-content-X {	
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    margin-right: 30px;
+    position: relative;
+    float: left;
+}
+span{
+	color: white;
+	background-color: orange;
+    position: absolute;
+    top :0;
+    left: 0;
+}
+
+.main-visual-content1 {
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.main-visual-content2 {
+	height: 150px;
+}
+
+.main-visual-content-Y {	
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    margin-right: 30px;
+    position: relative;
+    float: left;
+}
+
+.main-visual-content3 {
+	height: 150px;
+	background-image: url(img/flow02.png);
+    background-size: cover;
+    background-position: bottom; 
+}
+span{
+	color: white;
+	background-color: orange;
+    position: absolute;
+    top :0;
+    left: 0
+}
+
+.main-visual-content4 {
+	height: 150px;
+}
+
+.main-visual-content-Z {	
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+.main-visual-content5 {
+	height: 150px;
+	background-image: url(img/flow03.png);
+    background-size: cover;
+    background-position: bottom;   
+}
+span{
+	color: white;
+	background-color: orange;
+    position: absolute;
+    top :0;
+    left: 0
+}
+
+.main-visual-content6 {
+	height: 150px;
+
+}
+
+@media screen and (max-width:768px) {
+
+
+.main-visual {
+	width: 90%;
+}
+
+.main-visual-content-X {
+	float: none;
+	margin: 50px auto 20px auto;
+}
+
+.main-visual-content1 {
+}
+
+.main-visual-content2 {
+}
+
+.main-visual-content-Y {
+	float: none;
+	margin: auto auto 20px auto;
+}
+
+.main-visual-content-3 {
+}
+
+.main-visual-content4 {
+}
+
+.main-visual-content-Z {
+	float: none;
+	margin: auto auto 50px auto;
+}
+
+.main-visual-content-5 {
+}
+
+.main-visual-content6 {
+}
+}
